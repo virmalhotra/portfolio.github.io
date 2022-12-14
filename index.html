@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    
+    <header>  
+        <div class="container">  
+          <nav class="flex items-centre justify-between">  
+              <div class="left flex justify-right">  
+              <div class="logo">  
+                <img src="logo.png" width="20px" alt="logo">  
+              </div>  
+              <div>  
+                <a href="#profile">Profile</a>  
+                <a href="#projects">Projects</a>    
+              </div>  
+            </div>  
+            <div class="right">  
+                <a href = "https://www.instagram.com/_vir.m_/" target ="_blank"><button class="btn btn-primary">Contact</button></a> 
+            </div>  
+          </nav>
+        </div>  
+      </header>
+
+      <div class="hero flex items-centre justify-between" id = "Profile">
+        <div class="left flex-1 justify-center">
+        <img src="vir.jpg" alt="Profile">
+        </div>
+        <div class="right flex-1">
+        <h6>Vir Malhotra</h6>
+        <h1>Web <span>Developer</span>, <br>Student</h1>
+        <p>Going from having no prior experience in design to making a Portfolio,
+            CommsLab has been a wild ride. Getting off the waitlist 2 weeks into a course was daunting,
+            but I am glad to say that CommsLab has been an extremely rewarding experience. Here you can check 
+            out everything I created for this course.
+        </p>
+        <div>
+            <a href = "https://drive.google.com/file/d/1tnNmUFGU9NmlmhbVCQ7aGCoURO5F_Ltm/view?usp=sharing" target ="_blank"><button class="btn btn-secondary">DOWNLOAD CV</button></a>
+        </div>
+        </div>
+        </div>
+
+        <section class="services" id="projects">
+            <div class="container">
+            <h1 class="services-head"><br><br><br><br>Projects</h1>
+            <div class="card-grid">
+            <div class="card" id = "img" onmouseover="setnewimage()" onmouseout="setoldimage()">
+                <div id="container">
+                <a href="https://drive.google.com/file/d/1TiF9KAvUfYOPJrMOQZGtjfeBpZSBqXVE/view?usp=sharing" target="_blank" data-src="wireframe.jpg" class="hover">
+                    <h1>Wireframe</h1>
+                  </a>
+                </div>
+            <p>Pretty self explanatory. <br>A wireframe for my first website.</p>
+            </div>
+            <div class="card">
+                <div id="container">
+                    <a href="https://virmalhotra.github.io/" data-src="clothing chronicle.jpg" class="hover" target="_blank">
+                        <h1>The Clothing Chronicles</h1>
+                      </a>
+                    </div>
+            <p>My first major CommsLab assignment. Do your laundry, kids.</p>
+            </div>
+            <div class="card">
+                <div id="container">
+                    <a href="https://drive.google.com/drive/folders/1m0bNZuuGMluTKUbZDdvcaEe31_M6O6KK?usp=sharing" target="_blank" data-src="front-door-5.jpg" class="hover">
+                        <h1>Photoshop/Illustrator</h1>
+                      </a>
+                    </div> 
+            <p>My image editing experiments. <br>Wish I had a door into space.</p>
+            </div>
+            <div class="card">
+                <div id="container">
+                    <a href="https://virmalhotra.github.io/scrollanimation.github.io/" data-src="scroll.jpg" target="_blank" class="hover">
+                        <h1>Scroll Animation</h1>
+                      </a>
+                    </div> 
+                <p>Experimenting with animations. <br>2kool4skool fr.</p>
+                </div>
+            <div class="card">
+                <div id="container">
+                    <a href="https://tengis0618.github.io/comics/" data-src="comic.jpg" class="hover" target="_blank">
+                        <h1>Comic Strip</h1>
+                      </a>
+                    </div> 
+                <p>A short story about an astronaut. <br> Existential crisis much?</p>
+                </div>
+            <div class="card">
+                <div id="container">
+                    <a href="https://drive.google.com/file/d/1OURKBi28sDlWKQyrTkWiUO5wt6ei-sSr/view?usp=sharing" target="_blank" data-src="sound.jpeg" class="hover">
+                        <h1>Soundscape</h1>
+                      </a>
+                    </div> 
+                <p>Sounds of my hometown: India. <br>Mundian toh bach ke rahi.</p>
+                </div>
+            <div class="card">
+                <div id="container">
+                    <a href="https://pavlyhalim.github.io/Meow/" data-src="cat.jpg" target="_blank" class="hover">
+                        <h1>Sound Website</h1>
+                      </a>
+                    </div> 
+                <p>Interactive sound based website. <br>BTS of campus cats' conversations.</p>
+                </div>
+            <div class="card">
+                <div id="container">
+                    <a href="https://drive.google.com/file/d/1jfYO81BG4ApU_ZjLlM7ggu2DGkmNl0LW/view" target="_blank" data-src="why.jpg" class="hover">
+                        <h1>Why Video</h1>
+                      </a>
+                    </div> 
+                <p>Why?</p>
+                </div>
+            <div class="card">
+                <div id="container">
+                    <a href="https://zion-off.github.io/vid-e-oh/" data-src="murder.jpg" target="_blank" class="hover">
+                        <h1>How to Bury a Body</h1>
+                      </a>
+                    </div> 
+                <p>Hello guys, welcome back to my YouTube channel!</p>
+                </div>
+            </div>
+            </div>
+            </section>
+
+<script src = "java.js"></script>
+</body>
+</html>
